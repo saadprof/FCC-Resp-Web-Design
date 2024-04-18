@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>BloodStrike Players Survey</title>
+
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+
+  <body>
+
+    <div class="container">
+        <div class="sub-container">
+            <header>
+                <h1 id="title">BloodStrike Players Survey Form</h1>
+                <p id="description">This survey will used to improve players physical health issues.</p>
+            </header>
+        
+            <form action="" method="post" id="survey-form">
+
+                <div>
+                    <fieldset id="basic-info">
+                        <label id="name-label" for="name">Name <input type="text" id="name" name="name" placeholder="Enter Your Name" required/></label>
+                        <label id="email-label" for="email">Email <input type="email" id="email" name="email" placeholder="Enter Your Email" required/></label>
+                        <label id="number-label" for="number">Age (optional) <input type="number" id="number" name="number" min="12" max="50" placeholder="Enter Your Age"/></label>
+                    </fieldset>
+                
+                    <fieldset id="ingame-info">
+                        <label for="player-role">
+                            Which role do you play?
+                            <select id="dropdown">
+                                <option value="">Select a role</option>
+                                <option value="1">Fragger</option>
+                                <option value="2">Assulter</option>
+                                <option value="3">Sniper</option>
+                                <option value="4">Coordinator</option>
+                            </select>
+                        </label>
+                
+                        <label for="issues">
+                            How often you encountered bugs or in-game issues?
+                            <label for="not-much">
+                                Not much
+                                <input type="radio" name="issue" id="not-much" value="not-much">
+                            </label>
+                            <label for="sometime">
+                                Sometime
+                                <input type="radio" name="issue" id="sometime" value="sometime">
+                            </label>
+                            <label for="very-often">
+                                Very often
+                                <input type="radio" name="issue" id="very-often" value="very-often">
+                            </label>
+                        </label>
+                
+                        <label for="fav-feature">
+                            Your favourite feature in game.
+                            <select name="feature" id="feature">
+                                <option value="">Select a feature you like</option>
+                                <option value="1">Smooth Graphics</option>
+                                <option value="2">Explorable Maps</option>
+                                <option value="3">Character powers</option>
+                                <option value="4">Guns and bajukas</option>
+                                <option value="5">Complex buildings and mountains</option>
+                            </select>
+                        </label>
+                    </fieldset>
+                
+                    <fieldset id="suggest-us">
+                        <label for="improvements">
+                            Suggest us what should we improve (Check all that apply)
+                
+                        
+                            <label for="improvement1">
+                                <input type="checkbox" name="improvement1" id="improvement1" value="improvement1">
+                                Add new guns
+                            </label>
+                            <label for="improvement2">
+                                <input type="checkbox" name="improvement2" id="improvement2" value="improvement2">
+                                Add new character with unique power
+                            </label>
+                            <label for="improvement3">
+                                <input type="checkbox" name="improvement3" id="improvement3" value="improvement3">
+                                Improve texture of buildings and mountains
+                            </label>
+                            <label for="improvement4">
+                                <input type="checkbox" name="improvement4" id="improvement4" value="improvement4">
+                                New gun skins and powers
+                            </label>
+                            <label for="improvement5">
+                                <input type="checkbox" name="improvement5" id="improvement5" value="improvement5">
+                                Damage and hitpoint of character
+                            </label>
+                            <label for="improvement6">
+                                <input type="checkbox" name="improvement6" id="improvement6" value="improvement6">
+                                Support of 120fps HDR graphics
+                            </label>
+                            <label for="improvement7">
+                                <input type="checkbox" name="improvement7" id="improvement7" value="improvement7">
+                                Collaboration and new events
+                            </label>
+                            <label for="improvement8">
+                                <input type="checkbox" name="improvement8" id="improvement8" value="improvement8">
+                                Increase bots in game 😉
+                            </label>
+                
+                        </label>
+                
+                        <label for="additional-suggestion">
+                            Any additional suggestion or comments you'd like?
+                            <textarea name="additional-suggestion" id="additional-suggestion" placeholder="Enter your comment here" rows="6"></textarea>
+                        </label>
+                    </fieldset>
+                
+                    <input type="submit" value="Submit" name="submit" id="submit"/>        
+
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+  </body>
+
+</html>

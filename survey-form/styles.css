@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(77, 76, 145, 0.9);
+    font-family: sans-serif;
+}
+
+.container{
+    display: block;
+    margin: 50px auto;
+    padding: 20px;
+}
+.container header{
+    text-align: center;
+    color: #f5f6f7;
+    margin: 20px 0;
+
+    font-size: 20px;
+}
+header #description{
+    font-style: italic;
+    margin: 5px 0;
+    opacity: 0.8;
+}
+
+.container #survey-form{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+#survey-form div{
+    padding: 20px;
+    background-color: #2F2E49;
+}
+
+#survey-form label{
+    color: #f5f6f7;
+    font-size: 18px;
+    margin: 4px 0;
+}
+#survey-form input, select, textarea{
+    margin: 6px 0;
+
+    border-radius: 4px;
+    padding: 10px;
+}
+
+
+fieldset{
+    border: none;
+    margin: 20px 0;
+}
+#basic-info label{
+    display: block;
+    margin: 8px 0;
+}
+#basic-info input, #suggest-us textarea{
+    width: calc(100% - 20px);
+    display: block;
+}
+
+
+#ingame-info > label{
+    display: block;
+    margin: 20px 0;
+}
+#ingame-info label{
+    display: block;
+    width: 100%;
+}
+#ingame-info select{
+    display: block;
+    width: 100%;
+}
+
+
+#suggest-us > label{
+    display: block;
+    margin: 20px 0;
+}
+#suggest-us label, textarea{
+    display: block;
+}
+
+
+#submit{
+    width: 100%;
+    cursor: pointer;
+    color: #f5f6f7;
+    font-size: 20px;
+    font-weight: 600;
+    background: #37AF65;
+}
