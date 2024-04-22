@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Product Landing Page</title>
+
+        <script
+            src="https://kit.fontawesome.com/f356f0e3d9.js"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <header id="header">
+            <img id="header-img" src="settings.png" alt="" />
+            <nav id="nav-bar">
+                <ul>
+                    <a class="nav-link" href="#features"><li>Services</li></a>
+                    <a class="nav-link" href="#video"><li>Visual</li></a>
+                    <a class="nav-link" href="#pricing"><li>Pricing</li></a>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="main">
+            <form
+                id="form"
+                action="https://www.freecodecamp.com/email-submit"
+                method="post"
+            >
+                <h2>Subscribe us to get future updates</h2>
+                <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Enter your email"
+                />
+                <input id="submit" type="submit" value="Subscribe" name="subscribe" />
+            </form>
+
+            <!-- Features -->
+            <section id="features">
+                <h2>Features</h2>
+                <div class="feature">
+                    <div>
+                        <i class="fa-solid fa-lightbulb"></i>
+                        <div>
+                            <h3>Fresh Ideas</h3>
+                            <p>Get new ideas on great projects</p>
+                        </div>
+                    </div>
+    
+                    <div>
+                        <i class="fa-solid fa-compass-drafting"></i>
+                        <div>
+                            <h3>Great coordination</h3>
+                            <p>Move towards success with proper coordination</p>
+                        </div>
+                    </div>
+    
+                    <div>
+                        <i class="fa-solid fa-code-compare"></i>
+                        <div>
+                            <h3>Collaboration</h3>
+                            <p>Collaborate with your mates.</p>
+                        </div>
+                    </div>
+    
+                    <div>
+                        <i class="fa-solid fa-users-between-lines"></i>
+                        <div>
+                            <h3>Friendly Community</h3>
+                            <p>Get helpful advices from mature coder community</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Video -->
+            <div class="video">
+                <h2>Visual Representation</h2>
+                <video id="video" src="code.mp4" autoplay loop></video>
+            </div>
+
+            <!-- Pricing -->
+            <section id="pricing">
+                <h2>Plan Pricing</h2>
+                <div class="pricing">
+                    <div class="basic">
+                        <h3>$3.99/month</h3>
+                        <p>Basic Plan</p>
+                    </div>
+                    <div class="medium">
+                        <h3>$5.99/month</h3>
+                        <p>Medium Plan</p>
+                    </div>
+                    <div class="premium">
+                        <h3>$9.99/month</h3>
+                        <p>Premium Plan</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
